@@ -14,5 +14,7 @@ export class TempformComponent implements OnInit {
 
   sumbitonclick() {
     console.log(this.signUpform.value);
+
+    this.signUpform.reset();
   }
 }
